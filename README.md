@@ -1,24 +1,23 @@
-# README
+# Omise
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple store app built on Ruby on Rails
 
-Things you may want to cover:
+### Ruby & Rails Versions
+* ruby 2.7.6
+* rails 7.0.4
 
-* Ruby version
+### setup 
+1. Clone the repo `git clone https://github.com/geyokoyama/omise.git`
+2. Install dependencies `bundle install`
+3. Setup database `bin/rails db:create db:migrate`
+4. Start the server `bin/rails server`
+**Ready to go!**
 
-* System dependencies
+#### Database initialization for development
+Seed the database with mock products `bin/rails db:seed`.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### TODO
+* Setup tests to do TDD
+* Write testing instructions in README
+* Write deployment instructions in README
+* Add screenshots to README
