@@ -5,5 +5,4 @@ FactoryBot.define do
     description { Faker::Lorem.paragraph }
     brand { Faker::Commerce.brand }
   end
-
 end
