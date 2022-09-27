@@ -1,2 +1,2 @@
 web: bundle exec rails server -p 8000
-rspec: bundle exec guard
+css: bin/rails tailwindcss:watch
